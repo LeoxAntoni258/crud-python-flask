@@ -18,8 +18,8 @@ def listar_consultas():
 db = mysql.connector.connect(
 host="localhost",
 user="root",
-password="@Chance873433576",
-database="bd_diabete"
+password="",
+database="bd_consulta"
 )
 cursor = db.cursor()
 
